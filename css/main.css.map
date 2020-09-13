@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "AAYA,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,OAAO;CACnB;;AAED,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,mBAAmB;EAChC,UAAU,EAAE,UAAU;CACzB",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/rules/_colors.scss",
+        "../scss/sections/_header.scss",
+        "../scss/sections/_hero.scss",
+        "../scss/sections/_opportunities.scss",
+        "../scss/sections/_invest.scss",
+        "../scss/sections/_works.scss",
+        "../scss/sections/_testimonials.scss",
+        "../scss/sections/footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

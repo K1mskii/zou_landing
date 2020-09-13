@@ -1,0 +1,22 @@
+// Rules
+@import 'rules/colors';
+
+// Sections
+@import 'sections/header';
+@import 'sections/hero';
+@import 'sections/opportunities';
+@import 'sections/invest';
+@import 'sections/works';
+@import 'sections/testimonials';
+@import 'sections/footer.scss';
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 120px;
+}
+
+body {
+    font-family: 'Chivo', sans-serif;
+    box-sizing: border-box;
+}
