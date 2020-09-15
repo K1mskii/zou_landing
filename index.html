@@ -1,66 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zou Landing</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <div class="header__wrapper">
-
-            </div>
+      <div class="container">
+        <div class="header__wrapper">
+          <nav class="header__nav">
+            <a href="#" class="header__logo"
+              ><img src="img/header/logo.svg" alt="Logo"
+            /></a>
+            <ul class="header__links">
+              <li><a href="#" class="header__link">Home</a></li>
+              <li><a href="#" class="header__link">Product</a></li>
+              <li><a href="#" class="header__link">Team</a></li>
+              <li><a href="#" class="header__link">Blog</a></li>
+              <li><a href="#" class="header__link">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="header__btn">Sign Up</button>
         </div>
+      </div>
     </header>
 
     <main class="main">
-        <!-- Hero -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero__wrapper"></div>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__text">
+              <h1 class="hero__title">A New Way to Invest in Agriculture</h1>
+              <p class="hero__desc">
+                Zou provides farmes, ranchers, private foresters, and
+                agricultural producers with online self service applications and
+                educational materials.
+              </p>
+              <button class="hero__btn">Invest Now</button>
             </div>
-        </section>
+            <div class="hero__img">
+              <img
+                src="img/hero/main.png"
+                alt="Illustration"
+                class="hero__illustration"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Opportunities -->
-        <section class="opportunities">
-            <div class="container">
-                <div class="opportunities__wrapper"></div>
+      <!-- Opportunities -->
+      <section class="opportunities">
+        <div class="container">
+          <img
+            src="img/opportunities/leaflets.svg"
+            alt="Leaflets"
+            class="opportunities__leaflets"
+          />
+          <div class="opportunities__wrapper">
+            <h2 class="opportunities__title">New Opportunities</h2>
+            <p class="opportunities__subtext">
+              We are the first and the only crowdfunding platform enabling you
+              to help finance our farmers.
+            </p>
+            <div class="opportunities__items">
+              <div class="opportunities__item">
+                <img
+                  src="img/opportunities/farmers.svg"
+                  alt="Farmers"
+                  class="opportunities__icon"
+                />
+                <h3 class="opportunities__name">Connect with our farmers</h3>
+                <p class="opportunities__desc">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                  odit aut fugit, sed quia consequuntur magni dolores eos
+                </p>
+              </div>
+              <!-- /.opportunities__item -->
+              <div class="opportunities__item">
+                <img
+                  src="img/opportunities/stairs.svg"
+                  alt="Stairs"
+                  class="opportunities__icon"
+                />
+                <h3 class="opportunities__name">Grow your business</h3>
+                <p class="opportunities__desc">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam
+                </p>
+              </div>
+              <!-- /.opportunities__item -->
+              <div class="opportunities__item">
+                <img
+                  src="img/opportunities/impact.svg"
+                  alt="Impact"
+                  class="opportunities__icon"
+                />
+                <h3 class="opportunities__name">Social Impact Invesment</h3>
+                <p class="opportunities__desc">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                </p>
+              </div>
+              <!-- /.opportunities__item -->
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Invest -->
-        <section class="invest">
-            <div class="container">
-                <div class="invest__wrapper"></div>
-            </div>
-        </section>
+      <!-- Invest -->
+      <section class="invest">
+        <div class="container">
+          <div class="invest__wrapper">
+            <h2 class="invest__title">Invest on your convenience</h2>
+            <p class="invest__subtext">
+              Autem vel eum iure reprehenderit qui in ea voluptate velit esse
+              quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat
+              quo voluptas nulla
+            </p>
+            <div class="invest__items">
+              <div class="invest__item invest__item-1">
+                <h3 class="invest__name">New Farm Today</h3>
+                <span class="invest__line"></span>
+                <h3 class="invest__subname">Short terms investment</h3>
+                <p class="invest__desc">
+                  Invest in farms that will be ready for harvest in 3-18 months
+                </p>
+                <button class="invest__btn">Browse Farm</button>
+              </div>
+              <!-- /.invest__item -->
+              <div class="invest__item invest__item-2">
+                <h3 class="invest__name">Fully Funded</h3>
+                <span class="invest__line"></span>
+                <h3 class="invest__subname">Long terms
+                  investment</h3>
+                <p class="invest__desc">
+                  Consider farms that have long term investment program.
+                </p>
+                <button class="invest__btn">Learn more</button>
+              </div>
+              <!-- /.invest__item -->
+          </div>
+        </div>
+      </section>
 
-        <!-- How it works -->
-        <section class="works">
-            <div class="container">
-                <div class="works__wrapper"></div>
+      <!-- How it works -->
+      <section class="works">
+        <div class="container">
+          <div class="works__wrapper">
+            <h2 class="works__title">How it works</h2>
+            <p class="works__subtext">Take your pick from the supply chain and participate in agribusiness projects that are backed up not only by Zou, but also by the best land, family heritage, innovation and overall superior expertise.</p>
+            <ul class="works__numbers">
+              <li class="works__number">01</li>
+              <li class="works__number">02</li>
+              <li class="works__number">03</li>
+              <li class="works__number">04</li>
+            </ul>
+            <div class="works__text">
+              <h2 class="works__name">Select your farmshare and complete reservation form.</h2>
+              <p class="works__desc">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere
+              </p>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer__wrapper"></div>
-        </div>
+      <div class="container">
+        <div class="footer__wrapper"></div>
+      </div>
     </footer>
 
-
-
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

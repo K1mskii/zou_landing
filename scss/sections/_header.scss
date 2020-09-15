@@ -1,0 +1,66 @@
+.header {
+    z-index: 2;
+    padding-top: 39px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 117px;
+}
+
+.header__links {
+    display: flex;
+}
+
+.header__link {
+    margin-right: 32px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.header__link:nth-child(2) {
+    margin-right: 41px;
+}
+
+.header__link:hover {
+    color: $green;
+    transition: 0.6;
+}
+
+
+.header__btn {
+    background: url(../img/header/user.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 86px) center;
+    padding: 15px 23px 14px 46px;
+    border: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F1F8E9;
+    cursor: pointer;
+}

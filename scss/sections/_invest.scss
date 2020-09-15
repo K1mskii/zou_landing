@@ -1,0 +1,123 @@
+.invest {
+    padding-top: 86px;
+    padding-bottom: 117px;
+}
+
+.invest__wrapper {
+    padding-left: 72px;
+}
+
+.invest__title {
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.invest__subtext {
+    margin-top: 14px;
+    width: 633px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #324148;
+}
+
+.invest__items {
+    margin-top: 92px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.invest__item {
+    margin-top: 2px;
+    margin-right: 32px;
+    width: 512px;
+    background: linear-gradient(180deg, rgba(97, 118, 127, 0.0001) 0%, #324148 100%);
+    border-radius: 5px;
+    padding-top: 39px;
+    padding-left: 72px;
+    padding-bottom: 56px;
+}
+
+.invest__item:last-child {
+    margin-right: 0;
+}
+
+.invest__item-1 {
+    background: url(../img/invest/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.invest__item-2 {
+    background: url(../img/invest/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.invest__name {
+    margin-top: 2px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2.8px;
+    color: $green;
+    text-transform: uppercase;
+}
+
+.invest__line {
+    margin-top: 15px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    width: 56px;
+    height: 4px;
+}
+
+.invest__subname {
+    width: 248px;
+    margin-top: 61px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.invest__desc {
+    width: 248px;
+    margin-top: 13px;
+    margin-bottom: 27px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E2EFD2;
+}
+
+.invest__btn {
+    width: 200px;
+    padding: 8px 42px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: $green;
+    cursor: pointer;
+}
