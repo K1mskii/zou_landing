@@ -667,6 +667,101 @@
   }
 }
 
+@media screen and (max-width: 880px) {
+  .works .container {
+    padding: 0;
+  }
+  .works__subtext {
+    padding: 0 15px;
+    width: 100%;
+  }
+  .works__number:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -95%;
+    background: #fff;
+    width: 69.5px;
+    height: 2px;
+  }
+  .works__number:nth-child(1) {
+    margin-left: 7px;
+    margin-right: 69.5px;
+  }
+  .works__number:nth-child(2) {
+    margin-right: 69.5px;
+  }
+  .works__number:nth-child(3) {
+    margin-right: 69.5px;
+  }
+  .works__desc {
+    margin-left: 55.5px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .works__wrapper {
+    padding-top: 53px;
+    padding-bottom: 71px;
+  }
+  .works__text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .works__name {
+    margin-left: 0;
+  }
+  .works__desc {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .works__numbers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .works__number {
+    margin-bottom: 45px;
+  }
+  .works__number:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    background: #fff;
+    width: 2px;
+    height: 45px;
+  }
+  .works__number:nth-child(1) {
+    margin-left: 7px;
+    margin-right: 0;
+  }
+  .works__number:nth-child(2) {
+    margin-right: 0;
+  }
+  .works__number:nth-child(3) {
+    margin-right: 0;
+  }
+  .works__text {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .works__name,
+  .works__desc {
+    width: 100%;
+    padding: 0 5px;
+  }
+}
+
 .saying {
   padding-top: 267px;
 }
@@ -806,6 +901,16 @@
 .slider__arrow {
   width: 11.56px;
   height: 23.11px;
+}
+
+@media screen and (max-width: 880px) {
+  .saying .container {
+    padding: 0;
+  }
+  .saying__title {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .footer {

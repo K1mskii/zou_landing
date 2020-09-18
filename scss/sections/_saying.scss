@@ -117,3 +117,14 @@
   width: 11.56px;
   height: 23.11px;
 }
+
+@media screen and (max-width: 880px) {
+  .saying .container {
+    padding: 0;
+  }
+
+  .saying__title {
+    width: 100%;
+    text-align: center;
+  }
+}
