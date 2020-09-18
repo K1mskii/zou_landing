@@ -2,8 +2,10 @@ $(function () {
   $(".saying__sliders").slick({
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     loop: true,
+    centerMode: true,
+    variableWidth: true,
     prevArrow: $(".sliders__arrows-left"),
     nextArrow: $(".sliders__arrows-right"),
     responsive: [

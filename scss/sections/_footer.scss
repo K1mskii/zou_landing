@@ -1,0 +1,150 @@
+.footer {
+    padding-top: 182px;
+    background: url(../../img/footer/illustration.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.farm {
+    width: 100%;
+    padding-bottom: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: -1px 25px 20px #F2F2F2;
+    border-radius: 5px;
+}
+
+.farm__title {
+    margin-top: 77px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+}
+
+.farm__bold {
+    color: $green;
+}
+
+.farm__btn {
+    margin-top: 28px;
+    padding: 8px 87px;
+    background: #66BB6A;
+    border-radius: 5px;
+    border: none;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+// Navbar
+.footer__nav {
+    padding-top: 156px;
+    padding-bottom: 138px;
+    border-bottom: 2px solid #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__name {
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.footer__link {
+    margin-top: 29px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    color: $grey;
+}
+
+.footer__blog {
+    padding-left: 56px;
+    width: 280px;
+    height: 258px;
+    background: $green;
+    border-radius: 5px;
+}
+
+.footer__blog-title {
+    margin-top: 32px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #EFF7E7;
+}
+
+.footer__blog-desc,
+.footer__blog-email {
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #EDF6E5;
+}
+
+.footer__blog-email {
+    font-weight: bold;
+}
+
+.footer__blog-btn {
+    margin-top: 15px;
+    background: url(../img/footer/user.svg) #fff;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 86px) center;
+    padding: 15px 23px 14px 46px;
+    border: none;
+    border: none;
+    border-radius: 5px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: $green;
+    cursor: pointer;
+}
+
+// Copyright
+.footer__copyright {
+    position: relative;
+    padding: 84px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright-text {
+
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #607D8B;
+}
