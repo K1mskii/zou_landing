@@ -1,0 +1,119 @@
+.saying {
+  padding-top: 267px;
+}
+
+.saying__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.saying__title {
+  margin-left: 72px;
+  width: 411px;
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.saying__mark {
+  position: absolute;
+  top: 0;
+  left: 72px;
+}
+
+.saying__sliders {
+  margin-top: 100px;
+  background: #fff;
+}
+
+.saying__slide {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  width: 408px;
+  height: 296px;
+  padding: 47px 48px 52px 48px;
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
+
+.saying__info {
+  display: flex;
+}
+
+.saying__photo {
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.saying__contact {
+  margin-left: 25px;
+  width: 246px;
+  display: flex;
+  flex-direction: column;
+}
+
+.saying__name {
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: $green;
+}
+
+.saying__position {
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+}
+
+.saying__desc {
+  margin-top: 27px;
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #324148;
+}
+
+.saying__sliders-arrows {
+  margin-top: 56px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.sliders__arrows-left {
+  margin-right: 16px;
+}
+
+.sliders__arrows-left,
+.sliders__arrows-right {
+  color: #8aa1ac;
+  padding: 20px 26px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.sliders__arrows-left:hover,
+.sliders__arrows-right:hover {
+  transition: 0.7;
+  background: $green;
+}
+
+.slider__arrow {
+  width: 11.56px;
+  height: 23.11px;
+}
