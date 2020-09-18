@@ -46,9 +46,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .opportunities__item {
+    margin-bottom: 36px;
     margin-right: 36px;
     padding-left: 48px;
     padding-top: 49px;
@@ -102,4 +104,31 @@
 
 .opportunities__item:hover .opportunities__desc {
     color: #fff;
+}
+
+@media screen and (max-width: 1241px) {
+    .opportunities__leaflets {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    .opportunities__item {
+        margin-right: 16px;
+    }
+}
+
+@media screen and (max-width: 1135px) {
+    .opportunities .container {
+        max-width: 1135px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+}
+
+
+@media screen and (max-width: 807px) {
+    .opportunities__subtext {
+        width: 100%;
+    }
 }

@@ -16,6 +16,24 @@
     padding: 0 120px;
 }
 
+@media screen and (max-width: 1920px) {
+    .container {
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 0 120px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .container {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 0 60px;
+    }
+}
+
+
+
 body {
     font-family: 'Chivo', sans-serif;
     box-sizing: border-box;

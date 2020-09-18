@@ -64,3 +64,11 @@
     color: #F1F8E9;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1180px) {
+    .header__btn {
+        background: url(../img/header/user.svg) $green;
+        background-repeat: no-repeat;
+        background-position: calc(100% - 86px) center;
+    }
+}

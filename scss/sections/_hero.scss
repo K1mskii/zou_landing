@@ -1,62 +1,69 @@
 .hero {
-  position: relative;
+    position: relative;
 }
 
 .hero__wrapper {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero__text {
-  z-index: 2;
-  width: 473px;
-  padding-top: 217px;
-  display: flex;
-  flex-direction: column;
+    z-index: 2;
+    width: 473px;
+    padding-top: 217px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero__title {
-  font-family: Chivo;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 46px;
-  line-height: 64px;
-  color: #000000;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 64px;
+    color: #000000;
 }
 
 .hero__desc {
-  margin-top: 26px;
-  margin-bottom: 54px;
-  font-family: Chivo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 32px;
-  color: #263238;
+    margin-top: 26px;
+    margin-bottom: 54px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #263238;
 }
 
 .hero__btn {
-  width: 144px;
-  background: $green;
-  border: none;
-  border-radius: 5px;
-  padding: 8px 24px 8px 25px;
-  font-family: Chivo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 32px;
-  text-align: center;
-  color: #ffffff;
-  filter: drop-shadow(0px 13px 20px rgba(118, 196, 125, 0.411204));
+    width: 144px;
+    background: $green;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 24px 8px 25px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    filter: drop-shadow(0px 13px 20px rgba(118, 196, 125, 0.411204));
 }
 
 .hero__img {
-  position: absolute;
-  top: 0;
-  right: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .hero__photo {
-  width: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1180px) {
+    .hero__img {
+        display: none;
+    }
 }
