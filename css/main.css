@@ -80,6 +80,10 @@
   cursor: pointer;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
 @media screen and (max-width: 1180px) {
   .header__btn {
     background: url(../img/header/user.svg) #66BB6A;
@@ -97,6 +101,9 @@
 @media screen and (max-width: 861px) {
   .header__links {
     display: none;
+  }
+  .hamburger-menu {
+    display: block;
   }
   #menu__toggle {
     opacity: 0;
