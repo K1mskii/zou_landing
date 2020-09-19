@@ -3,7 +3,6 @@
     background: url(../../img/footer/illustration.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     width: 100%;
 }
 
@@ -137,14 +136,133 @@
     padding: 84px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer__copyright-text {
-
     font-family: Chivo;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     color: #607D8B;
+}
+
+@media screen and (max-width: 880px) {
+    .footer {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .farm {
+        padding-bottom: 30px;
+    }
+
+    .farm__title {
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    .farm__btn {
+        padding: 8px 24px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .footer__nav {
+        padding-top: 371px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .footer__nav {
+        padding-top: 171px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .footer {
+        padding-top: 50px;
+    }
+
+    .footer__nav {
+        padding-top: 200px;
+        padding-bottom: 50px;
+        border-bottom: 2px solid #e1e1e1;
+    }
+
+    .footer__copyright {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer {
+        padding-top: 50px;
+        background: #eee;
+    }
+
+    .footer__nav {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-bottom: 2px solid #e1e1e1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__blog {
+        margin-top: 20px;
+        padding: 20px 30px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__blog-title {
+        margin-top: 0;
+        margin-right: 20px;
+    }
+
+    .footer__item {
+        margin-right: 50px;
+    }
+
+    .footer__blog-btn {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer .container {
+        max-width: 600px;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .footer__copyright {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__copyright-logo {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .footer__blog-btn {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .footer__blog {
+        padding: 10px;
+    }
 }

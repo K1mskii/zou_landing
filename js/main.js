@@ -8,8 +8,7 @@ $(function () {
     variableWidth: true,
     prevArrow: $(".sliders__arrows-left"),
     nextArrow: $(".sliders__arrows-right"),
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1300,
         settings: {
           slidesToShow: 2,
@@ -27,4 +26,18 @@ $(function () {
       },
     ],
   });
+});
+
+
+// Scroll page
+$("a.scroll-to").on("click", function (e) {
+  e.preventDefault();
+  var anchor = $(this).attr("href");
+  $("html, body")
+    .stop()
+    .animate({
+        scrollTop: $(anchor).offset().top - 0,
+      },
+      800
+    );
 });

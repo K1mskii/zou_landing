@@ -1,5 +1,5 @@
 .hero {
-    position: relative;
+    padding-top: 217px;
 }
 
 .hero__wrapper {
@@ -8,9 +8,7 @@
 }
 
 .hero__text {
-    z-index: 2;
     width: 473px;
-    padding-top: 217px;
     display: flex;
     flex-direction: column;
 }
@@ -63,7 +61,29 @@
 
 
 @media screen and (max-width: 1180px) {
+    .hero {
+        background: #eee;
+        padding: 150px 0 50px 0;
+    }
+
     .hero__img {
         display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .hero__text {
+        width: 100%;
+    }
+
+    .hero__title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .hero__desc {
+        margin: 10px 0;
+        font-size: 15px;
     }
 }

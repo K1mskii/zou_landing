@@ -65,10 +65,23 @@
     cursor: pointer;
 }
 
+
 @media screen and (max-width: 1180px) {
     .header__btn {
         background: url(../img/header/user.svg) $green;
         background-repeat: no-repeat;
         background-position: calc(100% - 86px) center;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .header__logo {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 861px) {
+    .header__links {
+        display: none;
     }
 }

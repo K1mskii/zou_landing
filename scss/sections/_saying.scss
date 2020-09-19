@@ -1,5 +1,5 @@
 .saying {
-  padding-top: 267px;
+  padding-top: 100px;
 }
 
 .saying__wrapper {
@@ -9,7 +9,6 @@
 }
 
 .saying__title {
-  margin-left: 72px;
   width: 411px;
   font-family: Chivo;
   font-style: normal;
@@ -22,7 +21,7 @@
 .saying__mark {
   position: absolute;
   top: 0;
-  left: 72px;
+  left: 0px;
 }
 
 .saying__sliders {
@@ -118,13 +117,59 @@
   height: 23.11px;
 }
 
+@media screen and (max-width: 1180px) {
+  .saying {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1135px) {
+  .saying .container {
+    max-width: 1135px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
+  .saying__sliders {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .saying__wrapper {
+    padding-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 880px) {
   .saying .container {
-    padding: 0;
+    padding: 0 30px;
+  }
+
+  .saying__title {
+    width: 400px;
+  }
+
+  .saying__sliders-arrows {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .saying {
+    padding-top: 50px;
   }
 
   .saying__title {
     width: 100%;
-    text-align: center;
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+  .saying__mark {
+    top: -10px;
+    width: 77.5px;
+    height: 60px;
   }
 }
