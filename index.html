@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/reset.css" />
   <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -78,7 +79,7 @@
             We are the first and the only crowdfunding platform enabling you
             to help finance our farmers.
           </p>
-          <div class="opportunities__items">
+          <div class="opportunities__items wow fadeInUp">
             <div class="opportunities__item">
               <img src="img/opportunities/farmers.svg" alt="Farmers" class="opportunities__icon" />
               <h3 class="opportunities__name">Connect with our farmers</h3>
@@ -121,7 +122,7 @@
             quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat
             quo voluptas nulla
           </p>
-          <div class="invest__items">
+          <div class="invest__items wow fadeInUp">
             <div class="invest__item invest__item-1">
               <h3 class="invest__name">New Farm Today</h3>
               <span class="invest__line"></span>
@@ -155,7 +156,7 @@
           <p class="works__subtext">Take your pick from the supply chain and participate in agribusiness projects that
             are backed up not only by Zou, but also by the best land, family heritage, innovation and overall superior
             expertise.</p>
-          <ul class="works__numbers">
+          <ul class="works__numbers wow fadeInUp">
             <li class="works__number">01</li>
             <li class="works__number">02</li>
             <li class="works__number">03</li>
@@ -177,7 +178,7 @@
         <div class="saying__wrapper">
           <h2 class="saying__title">What investors like you are saying about Zou</h2>
           <img src="img/testimonials/title.svg" alt="Question Mark" class="saying__mark">
-          <div class="saying__sliders">
+          <div class="saying__sliders wow fadeInUp">
             
             <!-- /.saying__slide -->
             <div class="saying__slide">
@@ -235,7 +236,7 @@
             </div>
 
           </div>
-          <div class="saying__sliders-arrows">
+          <div class="saying__sliders-arrows wow fadeInUp">
             <button class="sliders__arrows-left"><img src="img/testimonials/left-arrow.svg" class="slider__arrow"
                 alt="Left"></button>
             <button class="sliders__arrows-right"><img src="img/testimonials/right-arrow.svg" class="slider__arrow"
@@ -303,6 +304,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
